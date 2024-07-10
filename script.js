@@ -6,7 +6,7 @@ document.getElementById("btn").onclick = (e)=>{
     
     if(age>18){
         setTimeout(()=>{
-            alert("Welcome "+name+". You can vote.");
+            alert("Welcome, "+name+". You can vote.");
         },4000)
     }
     else{
